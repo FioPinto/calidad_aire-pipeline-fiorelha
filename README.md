@@ -1,12 +1,27 @@
-# 🥪 The Jaffle Shop 🦘
+# Proyecto Inicial
 
-_powered by the dbt Fusion engine_
+## Descripción
 
-Welcome! This is a sandbox project for exploring the basic functionality of Fusion. It's based on a fictional restaurant called the Jaffle Shop that serves [jaffles](https://en.wikipedia.org/wiki/Pie_iron).
+Este proyecto es una práctica para afianzar conocimientos sobre Snowflake y Dbt concentrandosé en el desarrollo de una pipeline desde un bucket s3 de AWS que pase por snowflake y el resulta. Consiste en una base de datos creada a partir de unos archivos csv sobre la calidad del aire que proveinen del catalogo de datos datos.gob.es, los caules se modelaran en fases hasta conseguir datos enriquecidos para usar en análisis.
 
-To get started:
-1. Set up your database connection in `~/.dbt/profiles.yml`. If you got here by running `dbt init`, you should already be good to go.
-2. Run `dbt build`. That's it!
+## Instrucciones
 
-> [!NOTE]
-> If you're brand-new to dbt, we recommend starting with the [dbt Learn](https://learn.getdbt.com/) platform. It's a free, interactive way to learn dbt, and it's a great way to get started if you're new to the tool.
+Se creará un bucket s3 en AWS en el cual se subirán los archivos csv encontrados sobre la calidad del aire.
+
+Ahora, en Snowflake se creará una base de datos, esquemas y un stage externo el cual se configurará a ese bucket s3. Se pasará del stage externo a una tabla raw configurada con un formato de archivo y con la cual se crearán nuestras tablas.
+
+Al usar la herramienta `dbt_core` junto con la extensión de dbt para Visual Studio Code se crean las carpetas necesarias para un proyecto dbt a partir del comando `dbtf init`.
+
+Una vez ejecutado ese comando pedirá que se configure la conexión a la base de datos de Snowflake, se introducirán los credenciales además de especificar que base de datos, esquema y warehouse debe usar.
+
+## Lista de modelos
+
+1. Capa de Staging (staging)
+
+2. Capa Intermedia (intermediate)
+
+3. Capa de Marts (marts)
+
+
+## Decisiones de diseño personales
+

@@ -168,3 +168,11 @@
 08:26:52.702869 [info ]: Finished scheduling [  0.00s]
 08:26:52.703305 [info ]: Finished loading project [  0.24s]
 08:26:52.704242 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-04-30T08:49:05.376754Z | 1afd7564-e2ab-49c8-8574-3f043f466e88 ====================
+08:49:05.376794 [info ]: Starting dbt LSP server
+08:49:05.376811 [info ]: Connecting to LSP client on port 8000
+08:49:05.377006 [info ]: Successfully connected to LSP client
+08:49:05.377016 [info ]: Creating LSP service...
+08:49:05.468141 [info ]: Creating LSP server...
+08:49:05.468189 [info ]: Starting LSP server...
+08:49:05.597358 [info ]: Loading ~/.dbt/profiles.yml
