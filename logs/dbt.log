@@ -1,0 +1,51 @@
+==================== 2026-04-30T08:05:54.468047Z | 019ddd6c-48a1-7170-8e90-4a7a837d60a4 ====================
+08:05:54.468249 [info ]: Installing dbt project and profile setup
+08:05:54.470064 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+08:05:54.470164 [info ]: Success Project created successfully!
+08:05:54.470191 [info ]: Info Project name: jaffle_shop
+08:05:54.470206 [info ]: Info Project directory: jaffle_shop
+08:05:54.470219 [info ]: Info Setting up your profile...
+08:05:54.470318 [info ]: Loading ~/.dbt/profiles.yml
+08:05:54.479868 [info ]: Profile 'jaffle_shop' already exists. You can choose how to proceed.
+08:05:57.816804 [info ]: Info Editing existing profile...
+08:05:59.573943 [info ]: Editing existing profile - skipping cloud config fetch
+08:08:11.989823 [info ]: Info Backup created at /home/fiorelha/.dbt/profiles.yml.bkp
+08:08:11.990311 [info ]: Success Profile written to /home/fiorelha/.dbt/profiles.yml
+08:08:11.990429 [info ]: Validating profile inputs, adapters, and connection
+
+08:08:11.990477 [info ]: dbt-fusion 2.0.0-preview.173
+08:08:11.991051 [info ]: Started loading project
+08:08:12.005146 [info ]: Loading ~/.dbt/profiles.yml
+08:08:12.006549 [info ]: Finished loading project [  0.02s]
+08:08:12.012232 [info ]: Started debugging
+08:08:12.012472 [info ]: Debugging profile: dev
+08:08:12.012563 [info ]: Debugging dbt version: 2.0.0-preview.173
+08:08:12.012601 [info ]: Debugging platform: linux x86_64 (unix)
+08:08:12.012659 [info ]: Debugging adapter type: snowflake (remote)
+08:08:12.019003 [info ]: Debugging dependencies:
+  git: OK
+08:08:12.024992 [info ]: Debugging connection:
+  "account": "GPUVOCT-CKB96116",
+  "user": "FIOPINTOBADGE",
+  "database": "CALIDAD_AIRE_PIPELINE_FIORELHA",
+  "warehouse": "PIPELINE_WH",
+  "schema": "STAGING"
+08:08:14.155739 [debug]: Query executed on node unknown:
+select 1 as id
+08:08:14.164411 [info ]: Debugging connection test: OK
+08:08:14.164630 [info ]: Debugged All checks passed!
+08:08:14.164695 [info ]: Finished debugging [  2.15s]
+08:08:14.648912 [info ]: New version available 2.0.0-preview.174 (run `dbt system update`)
+08:08:14.745071 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [2m 20s]
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862107Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862118Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862208Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862245Z"}}
+{"data":{"completed_at":"2026-04-30T08:11:08.046025Z","elapsed":0.18399237096309662,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [183ms]","name":"CommandCompleted","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:08.046169Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.054897Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.054927Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.055189Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.055276Z"}}
+{"data":{"completed_at":"2026-04-30T08:15:42.241106Z","elapsed":0.186387836933136,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [186ms]","name":"CommandCompleted","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.241339Z"}}

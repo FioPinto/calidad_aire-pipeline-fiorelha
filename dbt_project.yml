@@ -1,0 +1,25 @@
+name: 'calidad_aire_pipeline_fiorelha'
+
+profile: 'default'
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  calidad_aire_pipeline_fiorelha:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table
