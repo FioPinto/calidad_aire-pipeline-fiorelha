@@ -1,7 +1,8 @@
 {{ config(
     materialized='incremental',
     unique_key='id_medicion',
-    incremental_strategy='merge'
+    incremental_strategy='merge',
+    tags=['incremental']
 ) }}
 
 with base as (

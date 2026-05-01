@@ -1,7 +1,8 @@
 {{ config(
     materialized='incremental',
     unique_key='id_medicion',
-    incremental_strategy='merge'
+    incremental_strategy='merge',
+    tags=['incremental']
 ) }}
 
 select
@@ -13,8 +14,9 @@ select
     {{ categorize_wind_speed('valor') }} as nivel_alerta,
     loaded_at
 from {{ ref('fct_meteo_horario') }}
-where id_magnitud = 81 and valor > 30
+where id_magnitud = 30
+  and valor >=0
 
 {% if is_incremental() %}
-  where loaded_at > (select max(loaded_at) from {{ this }})
+  and loaded_at > (select max(loaded_at) from {{ this }})
 {% endif %}

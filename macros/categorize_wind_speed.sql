@@ -1,10 +1,7 @@
-{% macro categorize_wind_speed(column_name) %}
-
-    case 
-        when {{ column_name }} > 70 then 'ROJO'
-        when {{ column_name }} > 50 then 'NARANJA'
-        when {{ column_name }} > 30 then 'AMARILLO'
-        else 'SIN ALERTA'
+{% macro categorize_wind_speed(valor_col) %}
+    case
+        when {{ valor_col }} > 0.5 then 'ROJO'
+        when {{ valor_col }} > 0.2 then 'NARANJA'
+        else 'VERDE'
     end
-
 {% endmacro %}

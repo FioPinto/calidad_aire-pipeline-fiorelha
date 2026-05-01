@@ -3,5 +3,5 @@ select
     velocidad_viento,
     nivel_alerta
 from {{ ref('fct_alertas_viento') }}
-where (nivel_alerta = 'ROJO' and velocidad_viento <= 70)
-   or (nivel_alerta = 'NARANJA' and velocidad_viento <= 50)
+where (nivel_alerta = 'ROJO' and velocidad_viento <= 0.5)
+   or (nivel_alerta = 'NARANJA' and velocidad_viento <= 0.2)
