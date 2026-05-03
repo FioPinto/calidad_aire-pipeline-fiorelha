@@ -10,8 +10,8 @@ select
     id_estacion,
     id_fecha,
     hora,
-    valor as velocidad_viento,
-    {{ categorize_wind_speed('valor') }} as nivel_alerta,
+    valor as concentracion,
+    {{ get_alert_level('valor') }} as nivel_alerta,
     loaded_at
 from {{ ref('fct_meteo_horario') }}
 where id_magnitud = 30

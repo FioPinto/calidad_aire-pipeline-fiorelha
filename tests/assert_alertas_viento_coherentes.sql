@@ -1,7 +1,10 @@
 select
     id_medicion,
-    velocidad_viento,
+    concentracion,
     nivel_alerta
 from {{ ref('fct_alertas_viento') }}
-where (nivel_alerta = 'ROJO' and velocidad_viento <= 0.5)
-   or (nivel_alerta = 'NARANJA' and velocidad_viento <= 0.2)
+where 
+    (nivel_alerta = 'ROJO' and concentracion <= 10.0)
+    or (nivel_alerta = 'NARANJA' and (concentracion <= 5.0 or concentracion > 10.0))
+    or (nivel_alerta = 'AMARILLO' and (concentracion <= 2.0 or concentracion > 5.0))
+    or (nivel_alerta = 'VERDE' and concentracion > 2.0)
