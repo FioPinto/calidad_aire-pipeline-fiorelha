@@ -1,0 +1,33 @@
+models:
+  - name: dim_estaciones
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 1
+    columns:
+      - name: id_estacion
+        tests:
+          - unique
+          - not_null
+  - name: dim_magnitudes
+  - name: dim_tiempo
+  - name: fct_alertas_viento
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 0
+    columns:
+      - name: id_medicion
+        tests:
+          - unique
+          - not_null
+  - name: fct_meteo_horario
+    tests:
+      - dbt_utils.equal_rowcount:
+          arguments:
+            compare_model: ref('int_meteo_unpivoted')
+    columns:
+      - name: id_medicion
+        tests:
+          - unique
+          - not_null
