@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una práctica para afianzar conocimientos sobre Snowflake y Dbt concentrandosé en el desarrollo de una pipeline desde un bucket s3 de AWS que pase por snowflake y el resulta. Consiste en una base de datos creada a partir de unos archivos csv sobre la calidad del aire que proveinen del catalogo de datos datos.gob.es, los caules se modelaran en fases hasta conseguir datos enriquecidos para usar en análisis.
+Este proyecto es una práctica para afianzar conocimientos sobre Snowflake y Dbt. Consiste en una base de datos creada a partir de unos archivos csv sobre la calidad del aire que proveinen del catalogo de datos datos.gob.es, los culaes se modelaran en fases hasta conseguir datos enriquecidos para usar en análisis.
 
 ## Instrucciones
 
