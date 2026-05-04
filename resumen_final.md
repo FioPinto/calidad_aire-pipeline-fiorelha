@@ -11,6 +11,8 @@ Al decidir que base de datos usaría encontré varios datos de calidad del aire 
 
 Al final encontré un zip de archivos de un año que me serviría ya que al normalizar las columnas de horas que eran individuales conseguiría más filas. Sin embargo no me dí cuenta de que ya no traían la magnitud de velocidad de viento, la cual pensaba usar en un principio, aún así como usan la misma convención de magnitudes pude escoger otra que me interesó.
 
+Al inició tenía una tabla a la que llegaban los datos con sólo columnas de string, sin embargo, la cocnentración de benceno viene en decimales, la cual se me olvidó cambiar hasta que me pusé a crar visualizaciones en Power Bi, ya ahí casteé el dato a float.
+
 ## Aprendizaje
 
 Con esta práctica aprendí que en snowflake una pipeline depende de usar funciones de mensajería de AWS que no me había dado cuenta de que no tenía activadas, por lo cual usé un task a la que le asginé un horario.

@@ -1,0 +1,731 @@
+  git: OK
+08:08:14.164411 [info ]: Debugging connection test: OK
+08:08:14.164630 [info ]: Debugged All checks passed!
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862107Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862118Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862208Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:07.862245Z"}}
+{"data":{"completed_at":"2026-04-30T08:11:08.046025Z","elapsed":0.18399237096309662,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ddd71-10d4-7b31-8017-96f658421a3e","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [183ms]","name":"CommandCompleted","pid":15899,"thread":"tokio-rt-worker","ts":"2026-04-30T08:11:08.046169Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.054897Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.054927Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.055189Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.055276Z"}}
+{"data":{"completed_at":"2026-04-30T08:15:42.241106Z","elapsed":0.186387836933136,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ddd75-3fe3-7851-b280-3eadd829aa81","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [186ms]","name":"CommandCompleted","pid":16920,"thread":"tokio-rt-worker","ts":"2026-04-30T08:15:42.241339Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019ddd93-d02e-7eb2-a1b4-9f4d8a02ad5d","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":20672,"thread":"tokio-rt-worker","ts":"2026-04-30T08:49:05.071975Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019ddd93-d02e-7eb2-a1b4-9f4d8a02ad5d","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":20672,"thread":"tokio-rt-worker","ts":"2026-04-30T08:49:05.071991Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019ddd93-d02e-7eb2-a1b4-9f4d8a02ad5d","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":20672,"thread":"tokio-rt-worker","ts":"2026-04-30T08:49:05.072117Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019ddd93-d02e-7eb2-a1b4-9f4d8a02ad5d","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":20672,"thread":"tokio-rt-worker","ts":"2026-04-30T08:49:05.072170Z"}}
+{"data":{"completed_at":"2026-04-30T08:49:05.276157Z","elapsed":0.20426908135414124,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019ddd93-d02e-7eb2-a1b4-9f4d8a02ad5d","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [204ms]","name":"CommandCompleted","pid":20672,"thread":"tokio-rt-worker","ts":"2026-04-30T08:49:05.276289Z"}}
+16:01:32.204417 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+16:01:32.204452 [error]: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+16:01:32.209622 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:01:32.211028 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:01:32.211510 [error]: dbt0102: Deprecated test arguments: ["compare_model"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:01:32.824260 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+Finished 'parse' with 5 errors for target 'dev' [659ms]
+  git: OK
+16:06:53.812812 [info ]: Debugging connection test: OK
+16:06:53.812989 [info ]: Debugged All checks passed!
+16:08:00.323684 [error]: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+16:08:00.323714 [error]: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+16:08:00.329520 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:08:00.331030 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:08:00.331547 [error]: dbt0102: Deprecated test arguments: ["compare_model"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:08:00.887681 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+Finished 'list' with 5 errors for target 'dev' [601ms]
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019de460-7219-7502-8777-ac48dc50b66c","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":3999,"thread":"tokio-rt-worker","ts":"2026-05-01T16:30:19.164512Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019de460-7219-7502-8777-ac48dc50b66c","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":3999,"thread":"tokio-rt-worker","ts":"2026-05-01T16:30:19.164534Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019de460-7219-7502-8777-ac48dc50b66c","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":3999,"thread":"tokio-rt-worker","ts":"2026-05-01T16:30:19.164734Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019de460-7219-7502-8777-ac48dc50b66c","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":3999,"thread":"tokio-rt-worker","ts":"2026-05-01T16:30:19.164795Z"}}
+{"data":{"completed_at":"2026-05-01T16:30:19.352020Z","elapsed":0.1876460313796997,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019de460-7219-7502-8777-ac48dc50b66c","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [187ms]","name":"CommandCompleted","pid":3999,"thread":"tokio-rt-worker","ts":"2026-05-01T16:30:19.352200Z"}}
+16:32:38.721175 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:32:38.724902 [error]: dbt0102: Deprecated test arguments: ["min_value"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:32:38.726273 [error]: dbt0102: Deprecated test arguments: ["compare_model"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+16:32:39.281948 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+Finished 'freshness' with 3 errors for target 'dev' [674ms]
+16:34:04.922185 [info ]:     Failed [  2.84s] source madrid_meteo_raw.STG_METEO_HORIZONTAL
+16:34:04.949864 [error]: dbt1302: [Snowflake] 000904 (42000): SQL compilation error: error line 2 at position 10
+Finished 'freshness' with 1 error for target 'dev' [3.1s]
+17:09:45.563756 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+17:09:45.583453 [info ]: Finished analyzing [  0.02s] (2 nodes, 0 skipped, 0 errors)
+17:09:47.710536 [info ]: Finished running [  2.13s] model raw_staging.stg_magnitudes [success]
+17:09:49.146963 [info ]: Finished running [  3.56s] model raw_staging.stg_madrid_meteo [success]
+17:09:49.147041 [info ]: Finished running [  3.57s] (2 nodes, 0 skipped, 0 errors)
+17:11:52.133251 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+17:11:52.159229 [info ]: Finished analyzing [  0.03s] (2 nodes, 0 skipped, 0 errors)
+17:11:54.693470 [info ]: Finished running [  2.54s] model staging.stg_magnitudes [success]
+17:11:56.328762 [info ]: Finished running [  4.17s] model staging.stg_madrid_meteo [success]
+17:11:56.328875 [info ]: Finished running [  4.18s] (2 nodes, 0 skipped, 0 errors)
+  git: OK
+17:21:42.684651 [info ]: Debugging connection test: OK
+17:21:42.684904 [info ]: Debugged All checks passed!
+17:21:57.127919 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+17:21:57.147315 [info ]: Finished analyzing [  0.02s] (2 nodes, 0 skipped, 0 errors)
+17:21:59.581156 [info ]: Finished running [  2.43s] model staging.stg_magnitudes [success]
+17:22:01.733382 [info ]: Finished running [  4.59s] model staging.stg_madrid_meteo [success]
+17:22:01.733480 [info ]: Finished running [  4.59s] (2 nodes, 0 skipped, 0 errors)
+17:30:32.802438 [info ]: Finished running [  2.75s] model intermediate.int_meteo_unpivoted [success]
+17:30:32.805800 [info ]: Finished rendering [  2.79s] (3 nodes, 0 skipped, 0 errors)
+17:30:32.839225 [info ]: Finished analyzing [  2.82s] (3 nodes, 0 skipped, 0 errors)
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+17:30:34.769989 [info ]: Finished running [  4.71s] model intermediate.int_estaciones_limpio [success]
+17:30:35.455536 [error]: Error materializing test test.calidad_aire_pipeline_fiorelha.dbt_utils_equal_rowcount_fct_m_4d02150f42ac0a68fecccfcd21a42307.453f813186 (models/marts/_stg_marts.yml)
+  [Snowflake] 002003 (42S02): SQL compilation error:
+  (in compiled/generic_tests/dbt_utils_equal_rowcount_fct_m_4d02150f42ac0a68fecccfcd21a42307.sql:1:1). Treating as failing test.
+17:30:35.456051 [info ]:     Failed [  2.65s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ (models/marts/_stg_marts.yml:26:9)
+17:30:35.456242 [info ]: Finished running [  2.62s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [fail]
+17:30:35.456339 [info ]: Finished running [  5.40s] (3 nodes, 0 skipped, 1 errors)
+Finished 'build' with 2 errors for target 'dev' [7.8s]
+Summary: 3 total | 2 success | 1 error
+17:52:19.777542 [info ]: Finished running [  3.77s] model marts.dim_magnitudes [success]
+17:52:20.913803 [info ]: Finished running [  4.90s] model marts.dim_estaciones [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:21.481431 [info ]:     Passed [  0.56s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+17:52:21.481606 [info ]: Finished running [  0.56s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+17:52:21.756422 [info ]:     Passed [  0.84s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+17:52:21.756598 [info ]: Finished running [  0.82s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+17:52:21.830265 [info ]: Finished running [  5.79s] model marts.dim_tiempo [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:22.848178 [info ]:     Passed [  1.93s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+17:52:22.848331 [info ]: Finished running [  1.92s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+17:52:26.127182 [info ]: Finished running [ 10.08s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:26.475395 [info ]:     Passed [  0.35s] test  dbt_test__audit.assert_no_datos_futuros
+17:52:26.475577 [info ]: Finished running [  0.34s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:26.510327 [info ]:     Passed [  0.38s] test  dbt_test__audit.assert_valores_medicion_logicos
+17:52:26.510490 [info ]: Finished running [  0.35s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:26.614295 [info ]:     Passed [  0.49s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+17:52:26.614494 [info ]: Finished running [  0.48s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+17:52:27.409873 [info ]:     Passed [  1.28s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+17:52:27.410031 [info ]: Finished running [  1.24s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:27.866219 [info ]:     Passed [  1.74s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+17:52:27.866377 [info ]: Finished running [  1.74s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+17:52:29.403498 [info ]: Finished running [  1.54s] model marts.fct_alertas_viento [success]
+17:52:29.406769 [info ]: Finished rendering [ 13.41s] (17 nodes, 0 skipped, 0 errors)
+17:52:29.408905 [info ]: Finished analyzing [ 13.41s] (17 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+17:52:29.717950 [info ]:     Passed [  0.31s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+17:52:29.718059 [info ]: Finished running [  0.31s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:29.727770 [info ]:     Passed [  0.32s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+17:52:29.727874 [info ]: Finished running [  0.32s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:29.756827 [info ]:     Passed [  0.35s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+17:52:29.756971 [info ]: Finished running [  0.35s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:52:29.806069 [info ]:     Passed [  0.40s] test  dbt_test__audit.assert_alertas_viento_coherentes
+17:52:29.806208 [info ]: Finished running [  0.40s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+17:52:29.806267 [info ]: Finished running [ 13.80s] (17 nodes, 0 skipped, 0 errors)
+18:09:04.349995 [warn ]: dbt1070: Syntax error after rendering with introspection (see docs.getdbt.com/docs/fusion/new-concepts):
+18:09:06.974130 [error]: dbt1302: Database Error in model fct_alertas_viento (models/marts/fct_alertas_viento.sql)
+  [Snowflake] 001003 (42000): SQL compilation error:
+  syntax error line 30 at position 2 unexpected 'where'.
+18:09:06.974359 [info ]:     Failed [  2.64s] model marts.fct_alertas_viento (incremental)
+18:09:06.974428 [info ]: Finished running [  2.62s] model marts.fct_alertas_viento [error]
+18:09:06.974631 [info ]: Finished running [  0.00s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [skipped]
+18:09:06.974708 [info ]: Finished running [  0.00s] test dbt_test__audit.assert_alertas_viento_coherentes [skipped]
+18:09:06.974778 [info ]: Finished running [  0.00s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [skipped]
+18:09:06.974824 [info ]: Finished rendering [  2.64s] (5 nodes, 4 skipped, 0 errors)
+18:09:06.974885 [info ]: Finished analyzing [  2.64s] (5 nodes, 4 skipped, 0 errors)
+18:09:06.974945 [info ]: Finished running [  0.00s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [skipped]
+18:09:06.974953 [info ]: Finished running [  2.62s] (5 nodes, 4 skipped, 1 errors)
+Finished 'build' with 1 warning and 1 error for target 'dev' [5.8s]
+Summary: 5 total | 1 error | 4 skipped
+18:11:12.627916 [warn ]: dbt1070: Syntax error after rendering with introspection (see docs.getdbt.com/docs/fusion/new-concepts):
+18:11:15.142767 [error]: dbt1302: Database Error in model fct_alertas_viento (models/marts/fct_alertas_viento.sql)
+  [Snowflake] 001003 (42000): SQL compilation error:
+  syntax error line 30 at position 2 unexpected 'where'.
+18:11:15.142961 [info ]:     Failed [  2.54s] model marts.fct_alertas_viento (incremental)
+18:11:15.143111 [info ]: Finished running [  2.51s] model marts.fct_alertas_viento [error]
+18:11:15.143459 [info ]: Finished running [  0.00s] test dbt_test__audit.assert_alertas_viento_coherentes [skipped]
+18:11:15.143620 [info ]: Finished running [  0.00s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [skipped]
+18:11:15.143746 [info ]: Finished running [  0.00s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [skipped]
+18:11:15.143818 [info ]: Finished rendering [  2.54s] (5 nodes, 4 skipped, 0 errors)
+18:11:15.143923 [info ]: Finished analyzing [  2.54s] (5 nodes, 4 skipped, 0 errors)
+18:11:15.144035 [info ]: Finished running [  0.00s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [skipped]
+18:11:15.144059 [info ]: Finished running [  2.52s] (5 nodes, 4 skipped, 1 errors)
+Finished 'build' with 1 warning and 1 error for target 'dev' [5.7s]
+Summary: 5 total | 1 error | 4 skipped
+18:12:14.497572 [info ]: Finished running [  5.50s] model marts.fct_alertas_viento [success]
+18:12:14.499754 [info ]: Finished rendering [  5.52s] (5 nodes, 0 skipped, 0 errors)
+18:12:14.513904 [info ]: Finished analyzing [  5.53s] (5 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:12:14.841037 [info ]:     Passed [  0.34s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:12:14.841214 [info ]: Finished running [  0.33s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:12:15.916747 [info ]:     Passed [  1.42s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:12:15.916911 [info ]: Finished running [  1.42s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:12:17.373280 [info ]:     Passed [  2.88s] test  dbt_test__audit.assert_alertas_viento_coherentes
+18:12:17.373407 [info ]: Finished running [  2.87s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:12:18.361669 [info ]:     Passed [  3.86s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:12:18.361741 [info ]: Finished running [  3.86s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+18:12:18.361776 [info ]: Finished running [  9.36s] (5 nodes, 0 skipped, 0 errors)
+18:27:56.496790 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:27:56.508827 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+18:27:58.953548 [info ]: Finished running [  2.44s] model staging.stg_magnitudes [success]
+18:27:58.953644 [info ]: Finished running [  2.44s] (1 nodes, 0 skipped, 0 errors)
+18:28:22.795420 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:28:22.810473 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:28:27.936242 [info ]: Finished running [  5.13s] model marts.dim_magnitudes [success]
+18:28:27.936353 [info ]: Finished running [  5.13s] (1 nodes, 0 skipped, 0 errors)
+18:29:10.627234 [info ]: Finished running [  6.12s] model marts.fct_alertas_viento [success]
+18:29:10.631168 [info ]: Finished rendering [  6.16s] (5 nodes, 0 skipped, 0 errors)
+18:29:10.646010 [info ]: Finished analyzing [  6.17s] (5 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:29:10.942942 [info ]:     Passed [  0.31s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:29:10.943085 [info ]: Finished running [  0.31s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:29:12.061620 [info ]:     Passed [  1.43s] test  dbt_test__audit.assert_alertas_viento_coherentes
+18:29:12.061773 [info ]: Finished running [  1.43s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:29:13.404887 [info ]:     Passed [  2.77s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:29:13.405056 [info ]: Finished running [  2.77s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:29:15.094825 [info ]:     Passed [  4.46s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:29:15.094995 [info ]: Finished running [  4.45s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+18:29:15.095078 [info ]: Finished running [ 10.59s] (5 nodes, 0 skipped, 0 errors)
+18:33:42.514819 [info ]: Finished running [  6.52s] model marts.fct_alertas_viento [success]
+18:33:42.518828 [info ]: Finished rendering [  6.57s] (5 nodes, 0 skipped, 0 errors)
+18:33:42.542003 [info ]: Finished analyzing [  6.59s] (5 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:33:43.224152 [info ]:     Passed [  0.71s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:33:43.224277 [info ]: Finished running [  0.68s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:33:43.962865 [info ]:     Passed [  1.45s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:33:43.963061 [info ]: Finished running [  1.44s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:33:45.433998 [info ]:     Passed [  2.92s] test  dbt_test__audit.assert_alertas_viento_coherentes
+18:33:45.434169 [info ]: Finished running [  2.91s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:33:46.580727 [info ]:     Passed [  4.06s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:33:46.580863 [info ]: Finished running [  4.05s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+18:33:46.580937 [info ]: Finished running [ 10.59s] (5 nodes, 0 skipped, 0 errors)
+18:36:46.775715 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:36:46.800251 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+18:36:50.420016 [info ]: Finished running [  3.62s] model marts.fct_alertas_viento [success]
+18:36:50.420083 [info ]: Finished running [  3.62s] (1 nodes, 0 skipped, 0 errors)
+19:01:57.182141 [info ]: Finished running [ 10.18s] model marts.dim_estaciones [success]
+19:01:58.627610 [info ]: Finished running [  9.90s] model marts.fct_meteo_horario [success]
+19:01:58.630009 [info ]: Finished rendering [ 11.65s] (3 nodes, 0 skipped, 0 errors)
+19:01:58.649069 [info ]: Finished analyzing [ 11.67s] (3 nodes, 0 skipped, 0 errors)
+19:02:04.557666 [info ]: Finished running [  5.91s] model marts.fct_alertas_viento [success]
+19:02:04.557781 [info ]: Finished running [ 17.56s] (3 nodes, 0 skipped, 0 errors)
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019deeec-da7c-7511-90ea-195da8698cdc","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":3147,"thread":"tokio-rt-worker","ts":"2026-05-03T17:39:53.106021Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019deeec-da7c-7511-90ea-195da8698cdc","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":3147,"thread":"tokio-rt-worker","ts":"2026-05-03T17:39:53.106046Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019deeec-da7c-7511-90ea-195da8698cdc","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":3147,"thread":"tokio-rt-worker","ts":"2026-05-03T17:39:53.108593Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019deeec-da7c-7511-90ea-195da8698cdc","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":3147,"thread":"tokio-rt-worker","ts":"2026-05-03T17:39:53.108795Z"}}
+{"data":{"completed_at":"2026-05-03T17:39:53.372934Z","elapsed":0.26725319027900696,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019deeec-da7c-7511-90ea-195da8698cdc","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [267ms]","name":"CommandCompleted","pid":3147,"thread":"tokio-rt-worker","ts":"2026-05-03T17:39:53.373107Z"}}
+17:58:34.156368 [info ]: Finished running [  2.13s] model staging.stg_magnitudes [success]
+17:58:34.987078 [info ]: Finished running [  2.96s] model staging.stg_madrid_meteo [success]
+17:58:35.999200 [info ]: Finished running [  0.98s] model intermediate.int_meteo_unpivoted [success]
+17:58:36.773288 [info ]: Finished running [  2.61s] model marts.dim_magnitudes [success]
+17:58:36.846995 [info ]: Finished running [  1.84s] model intermediate.int_estaciones_limpio [success]
+17:58:38.154236 [info ]: Finished running [  2.13s] model marts.dim_tiempo [success]
+17:58:40.745476 [info ]: Finished running [  3.89s] model marts.dim_estaciones [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:41.078570 [info ]:     Passed [  0.33s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+17:58:41.078761 [info ]: Finished running [  0.33s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+17:58:41.167359 [info ]:     Passed [  0.42s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+17:58:41.167517 [info ]: Finished running [  0.40s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:41.320280 [info ]:     Passed [  0.57s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+17:58:41.320442 [info ]: Finished running [  0.56s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+17:58:42.244800 [info ]: Finished running [  4.56s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:42.588284 [info ]:     Passed [  0.34s] test  dbt_test__audit.assert_no_datos_futuros
+17:58:42.588575 [info ]: Finished running [  0.34s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+17:58:42.859198 [info ]:     Passed [  0.61s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+17:58:42.859376 [info ]: Finished running [  0.58s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:43.175943 [info ]:     Passed [  0.93s] test  dbt_test__audit.assert_valores_medicion_logicos
+17:58:43.176124 [info ]: Finished running [  0.90s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:43.307062 [info ]:     Passed [  1.06s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+17:58:43.307212 [info ]: Finished running [  1.06s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+17:58:43.454557 [info ]:     Passed [  1.21s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+17:58:43.454706 [info ]: Finished running [  1.21s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+17:58:47.557437 [error]: dbt1302: Database Error in model fct_alertas_viento (models/marts/fct_alertas_viento.sql)
+  [Snowflake] 000904 (42000): SQL compilation error: error line 25 at position 59
+17:58:47.557627 [info ]:     Failed [  4.12s] model marts.fct_alertas_viento (incremental)
+17:58:47.557806 [info ]: Finished running [  4.10s] model marts.fct_alertas_viento [error]
+17:58:47.558151 [info ]: Finished running [  0.00s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [skipped]
+17:58:47.558316 [info ]: Finished running [  0.00s] test dbt_test__audit.assert_alertas_viento_coherentes [skipped]
+17:58:47.558445 [info ]: Finished running [  0.00s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [skipped]
+17:58:47.558517 [info ]: Finished rendering [ 15.56s] (21 nodes, 4 skipped, 0 errors)
+17:58:47.558625 [info ]: Finished analyzing [ 15.55s] (21 nodes, 4 skipped, 0 errors)
+17:58:47.558742 [info ]: Finished running [  0.00s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [skipped]
+17:58:47.558759 [info ]: Finished running [ 15.54s] (21 nodes, 4 skipped, 1 errors)
+Finished 'build' with 1 error for target 'dev' [18.9s]
+Summary: 21 total | 16 success | 1 error | 4 skipped
+18:05:02.806383 [info ]: Finished running [  2.36s] model staging.stg_magnitudes [success]
+18:05:03.801966 [info ]: Finished running [  3.34s] model staging.stg_madrid_meteo [success]
+18:05:05.124802 [info ]: Finished running [  1.30s] model intermediate.int_estaciones_limpio [success]
+18:05:05.878906 [info ]: Finished running [  3.07s] model marts.dim_magnitudes [success]
+18:05:06.058939 [info ]: Finished running [  2.23s] model intermediate.int_meteo_unpivoted [success]
+18:05:07.837538 [info ]: Finished running [  1.75s] model marts.dim_tiempo [success]
+18:05:09.806834 [info ]: Finished running [  4.68s] model marts.dim_estaciones [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:05:10.350366 [info ]:     Passed [  0.54s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+18:05:10.350524 [info ]: Finished running [  0.53s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:05:10.381538 [info ]:     Passed [  0.57s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+18:05:10.381735 [info ]: Finished running [  0.57s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:05:10.559974 [info ]:     Passed [  0.75s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+18:05:10.560139 [info ]: Finished running [  0.74s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+18:05:10.905180 [info ]: Finished running [  4.53s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:05:11.198904 [info ]:     Passed [  0.29s] test  dbt_test__audit.assert_no_datos_futuros
+18:05:11.199179 [info ]: Finished running [  0.29s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:05:11.220579 [info ]:     Passed [  0.31s] test  dbt_test__audit.assert_valores_medicion_logicos
+18:05:11.220756 [info ]: Finished running [  0.29s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+18:05:11.221216 [info ]:     Passed [  0.31s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+18:05:11.221321 [info ]: Finished running [  0.31s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:05:12.350555 [info ]:     Passed [  1.44s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+18:05:12.350775 [info ]: Finished running [  1.44s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+18:05:14.241499 [info ]:     Passed [  3.33s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+18:05:14.241657 [info ]: Finished running [  3.30s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+18:05:18.033566 [error]: dbt1302: Database Error in model fct_alertas_viento (models/marts/fct_alertas_viento.sql)
+  [Snowflake] 000904 (42000): SQL compilation error: error line 25 at position 59
+18:05:18.033767 [info ]:     Failed [  3.81s] model marts.fct_alertas_viento (incremental)
+18:05:18.033908 [info ]: Finished running [  3.79s] model marts.fct_alertas_viento [error]
+18:05:18.034500 [info ]: Finished running [  0.00s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [skipped]
+18:05:18.034621 [info ]: Finished running [  0.00s] test dbt_test__audit.assert_alertas_viento_coherentes [skipped]
+18:05:18.034753 [info ]: Finished running [  0.00s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [skipped]
+18:05:18.034829 [info ]: Finished rendering [ 17.60s] (21 nodes, 4 skipped, 0 errors)
+18:05:18.034936 [info ]: Finished analyzing [ 17.60s] (21 nodes, 4 skipped, 0 errors)
+18:05:18.035058 [info ]: Finished running [  0.00s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [skipped]
+18:05:18.035076 [info ]: Finished running [ 17.59s] (21 nodes, 4 skipped, 1 errors)
+Finished 'build' with 1 error for target 'dev' [20.8s]
+Summary: 21 total | 16 success | 1 error | 4 skipped
+18:15:43.919413 [info ]: Finished running [  2.12s] model staging.stg_magnitudes [success]
+18:15:45.347727 [info ]: Finished running [  3.55s] model staging.stg_madrid_meteo [success]
+18:15:45.860919 [info ]: Finished running [  1.94s] model marts.dim_magnitudes [success]
+18:15:46.398019 [info ]: Finished running [  1.03s] model intermediate.int_meteo_unpivoted [success]
+18:15:47.701584 [info ]: Finished running [  2.34s] model intermediate.int_estaciones_limpio [success]
+18:15:48.227477 [info ]: Finished running [  1.81s] model marts.dim_tiempo [success]
+18:15:51.183863 [info ]: Finished running [  4.48s] model marts.fct_meteo_horario [success]
+18:15:51.294156 [info ]: Finished running [  3.59s] model marts.dim_estaciones [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:51.439234 [info ]:     Passed [  0.25s] test  dbt_test__audit.assert_no_datos_futuros
+18:15:51.439544 [info ]: Finished running [  0.25s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:51.444315 [info ]:     Passed [  0.26s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+18:15:51.444558 [info ]: Finished running [  0.26s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:51.797669 [info ]:     Passed [  0.50s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+18:15:51.797831 [info ]: Finished running [  0.50s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:52.689946 [info ]:     Passed [  1.50s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+18:15:52.690091 [info ]: Finished running [  1.49s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:53.720105 [info ]:     Passed [  2.54s] test  dbt_test__audit.assert_valores_medicion_logicos
+18:15:53.720271 [info ]: Finished running [  2.51s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+18:15:54.857820 [info ]:     Passed [  3.67s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+18:15:54.857985 [info ]: Finished running [  3.65s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:15:57.122838 [info ]:     Passed [  5.83s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+18:15:57.123013 [info ]: Finished running [  5.81s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:15:57.169356 [info ]:     Passed [  5.87s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+18:15:57.169539 [info ]: Finished running [  5.87s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+18:15:57.800794 [error]: dbt1302: Database Error in model fct_alertas_viento (models/marts/fct_alertas_viento.sql)
+  [Snowflake] 000904 (42000): SQL compilation error: error line 25 at position 59
+18:15:57.800976 [info ]:     Failed [  2.96s] model marts.fct_alertas_viento (incremental)
+18:15:57.801127 [info ]: Finished running [  2.94s] model marts.fct_alertas_viento [error]
+18:15:57.801530 [info ]: Finished running [  0.00s] test dbt_test__audit.assert_alertas_viento_coherentes [skipped]
+18:15:57.801683 [info ]: Finished running [  0.00s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [skipped]
+18:15:57.801815 [info ]: Finished running [  0.00s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [skipped]
+18:15:57.801893 [info ]: Finished rendering [ 16.02s] (21 nodes, 4 skipped, 0 errors)
+18:15:57.802005 [info ]: Finished analyzing [ 16.01s] (21 nodes, 4 skipped, 0 errors)
+18:15:57.802119 [info ]: Finished running [  0.00s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [skipped]
+18:15:57.802137 [info ]: Finished running [ 16.00s] (21 nodes, 4 skipped, 1 errors)
+Finished 'build' with 1 warning and 1 error for target 'dev' [20.9s]
+Summary: 21 total | 16 success | 1 error | 4 skipped
+18:20:18.379194 [info ]: Finished running [  1.86s] model staging.stg_magnitudes [success]
+18:20:19.888251 [info ]: Finished running [  3.37s] model staging.stg_madrid_meteo [success]
+18:20:20.781783 [info ]: Finished running [  0.87s] model intermediate.int_estaciones_limpio [success]
+18:20:21.322884 [info ]: Finished running [  1.40s] model intermediate.int_meteo_unpivoted [success]
+18:20:21.791869 [info ]: Finished running [  3.41s] model marts.dim_magnitudes [success]
+18:20:24.216408 [info ]: Finished running [  2.87s] model marts.dim_tiempo [success]
+18:20:24.565853 [info ]: Finished running [  3.78s] model marts.dim_estaciones [success]
+18:20:24.569121 [info ]: Finished running [  2.90s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:24.864926 [info ]:     Passed [  0.29s] test  dbt_test__audit.assert_no_datos_futuros
+18:20:24.865108 [info ]: Finished running [  0.29s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:24.878082 [info ]:     Passed [  0.31s] test  dbt_test__audit.assert_valores_medicion_logicos
+18:20:24.878226 [info ]: Finished running [  0.28s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:20:25.021207 [info ]:     Passed [  0.45s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+18:20:25.021400 [info ]: Finished running [  0.43s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+18:20:25.323728 [info ]:     Passed [  0.75s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+18:20:25.323850 [info ]: Finished running [  0.72s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:26.021982 [info ]:     Passed [  1.45s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+18:20:26.022141 [info ]: Finished running [  1.45s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:27.002098 [info ]:     Passed [  2.43s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+18:20:27.002232 [info ]: Finished running [  2.43s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:28.387935 [info ]:     Passed [  3.82s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+18:20:28.388094 [info ]: Finished running [  3.81s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:29.206959 [info ]:     Passed [  4.64s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+18:20:29.207140 [info ]: Finished running [  4.63s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+18:20:32.109749 [info ]: Finished running [  2.90s] model marts.fct_alertas_viento [success]
+18:20:32.112994 [info ]: Finished rendering [ 15.61s] (21 nodes, 0 skipped, 0 errors)
+18:20:32.116852 [info ]: Finished analyzing [ 15.61s] (21 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:20:32.502023 [info ]:     Passed [  0.39s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:20:32.502259 [info ]: Finished running [  0.39s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:32.543016 [info ]:     Failed [  0.43s] test  dbt_test__audit.assert_alertas_viento_coherentes (tests/assert_alertas_viento_coherentes.sql)
+18:20:32.543277 [info ]: Finished running [  0.43s] test dbt_test__audit.assert_alertas_viento_coherentes [fail]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:32.546186 [info ]:     Passed [  0.43s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:20:32.546355 [info ]: Finished running [  0.43s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:20:32.995176 [info ]:     Passed [  0.88s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:20:32.995457 [info ]: Finished running [  0.88s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+18:20:32.995587 [info ]: Finished running [ 16.48s] (21 nodes, 0 skipped, 1 errors)
+Finished 'build' with 1 error for target 'dev' [19.6s]
+Summary: 21 total | 20 success | 1 error
+18:22:15.092029 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+18:22:15.130332 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+18:22:18.572635 [info ]: Finished running [  3.44s] model marts.fct_alertas_viento [success]
+18:22:18.572693 [info ]: Finished running [  3.44s] (1 nodes, 0 skipped, 0 errors)
+18:22:36.726476 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+18:22:36.740967 [info ]: Finished analyzing [  0.02s] (4 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:22:38.542539 [info ]:     Passed [  1.82s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:22:38.542699 [info ]: Finished running [  1.81s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:22:39.666245 [info ]:     Passed [  2.94s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:22:39.666403 [info ]: Finished running [  2.93s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:22:40.487487 [info ]:     Failed [  3.76s] test  dbt_test__audit.assert_alertas_viento_coherentes (tests/assert_alertas_viento_coherentes.sql)
+18:22:40.487654 [info ]: Finished running [  3.75s] test dbt_test__audit.assert_alertas_viento_coherentes [fail]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:22:41.918361 [info ]:     Passed [  5.19s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:22:41.918510 [info ]: Finished running [  5.18s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+18:22:41.918588 [info ]: Finished running [  5.18s] (4 nodes, 0 skipped, 1 errors)
+Finished 'test' with 1 error for target 'dev' [5.7s]
+Summary: 4 total | 3 success | 1 error
+18:27:03.859546 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+18:27:03.874860 [info ]: Finished analyzing [  0.02s] (4 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:27:05.370477 [info ]:     Passed [  1.51s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+18:27:05.370551 [info ]: Finished running [  1.50s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:27:07.083415 [info ]:     Passed [  3.22s] test  dbt_test__audit.assert_alertas_viento_coherentes
+18:27:07.083587 [info ]: Finished running [  3.21s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+18:27:07.506760 [info ]:     Passed [  3.65s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+18:27:07.506946 [info ]: Finished running [  3.63s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+18:27:08.435231 [info ]:     Passed [  4.58s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+18:27:08.435392 [info ]: Finished running [  4.56s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+18:27:08.435462 [info ]: Finished running [  4.57s] (4 nodes, 0 skipped, 0 errors)
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019df20b-0d25-7c03-9da7-b864edafa378","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":14065,"thread":"tokio-rt-worker","ts":"2026-05-04T08:11:43.783861Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019df20b-0d25-7c03-9da7-b864edafa378","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":14065,"thread":"tokio-rt-worker","ts":"2026-05-04T08:11:43.783880Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019df20b-0d25-7c03-9da7-b864edafa378","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":14065,"thread":"tokio-rt-worker","ts":"2026-05-04T08:11:43.784068Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019df20b-0d25-7c03-9da7-b864edafa378","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":14065,"thread":"tokio-rt-worker","ts":"2026-05-04T08:11:43.784126Z"}}
+{"data":{"completed_at":"2026-05-04T08:11:44.379608Z","elapsed":0.5958980917930603,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019df20b-0d25-7c03-9da7-b864edafa378","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [595ms]","name":"CommandCompleted","pid":14065,"thread":"tokio-rt-worker","ts":"2026-05-04T08:11:44.379715Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.173"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019df211-9912-7573-8086-02d1ccd521f5","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.173","name":"MainReportVersion","pid":15289,"thread":"tokio-rt-worker","ts":"2026-05-04T08:18:52.820822Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/home/fiorelha/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019df211-9912-7573-8086-02d1ccd521f5","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":15289,"thread":"tokio-rt-worker","ts":"2026-05-04T08:18:52.820833Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019df211-9912-7573-8086-02d1ccd521f5","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":15289,"thread":"tokio-rt-worker","ts":"2026-05-04T08:18:52.820937Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019df211-9912-7573-8086-02d1ccd521f5","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":15289,"thread":"tokio-rt-worker","ts":"2026-05-04T08:18:52.820978Z"}}
+{"data":{"completed_at":"2026-05-04T08:18:53.279453Z","elapsed":0.45870906114578247,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019df211-9912-7573-8086-02d1ccd521f5","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [458ms]","name":"CommandCompleted","pid":15289,"thread":"tokio-rt-worker","ts":"2026-05-04T08:18:53.279587Z"}}
+08:29:22.820995 [info ]: Finished running [  1.99s] model staging.stg_magnitudes [success]
+08:29:24.311244 [info ]: Finished running [  3.47s] model staging.stg_madrid_meteo [success]
+08:29:25.204777 [info ]: Finished running [  0.88s] model intermediate.int_estaciones_limpio [success]
+08:29:26.559695 [info ]: Finished running [  3.74s] model marts.dim_magnitudes [success]
+08:29:26.588901 [info ]: Finished running [  2.25s] model intermediate.int_meteo_unpivoted [success]
+08:29:28.507550 [info ]: Finished running [  1.89s] model marts.dim_tiempo [success]
+08:29:30.556493 [info ]: Finished running [  5.35s] model marts.dim_estaciones [success]
+08:29:30.558201 [info ]: Finished running [  3.68s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:30.816860 [info ]:     Passed [  0.26s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+08:29:30.817047 [info ]: Finished running [  0.25s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+08:29:30.818704 [info ]:     Passed [  0.26s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+08:29:30.818793 [info ]: Finished running [  0.25s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:30.827035 [info ]:     Passed [  0.27s] test  dbt_test__audit.assert_valores_medicion_logicos
+08:29:30.827176 [info ]: Finished running [  0.23s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:30.841831 [info ]:     Passed [  0.28s] test  dbt_test__audit.not_null_dim_estaciones_id_estacion
+08:29:30.841986 [info ]: Finished running [  0.28s] test dbt_test__audit.not_null_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:32.089146 [info ]:     Passed [  1.53s] test  dbt_test__audit.assert_no_datos_futuros
+08:29:32.089293 [info ]: Finished running [  1.52s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:33.138667 [info ]:     Passed [  2.58s] test  dbt_test__audit.unique_dim_estaciones_id_estacion
+08:29:33.138816 [info ]: Finished running [  2.57s] test dbt_test__audit.unique_dim_estaciones_id_estacion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+08:29:34.207336 [info ]:     Passed [  3.65s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1
+08:29:34.207485 [info ]: Finished running [  3.62s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_dim_estaciones_1 [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+08:29:35.698160 [info ]:     Passed [  5.14s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+08:29:35.698323 [info ]: Finished running [  5.11s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+08:29:40.818341 [info ]: Finished running [  5.12s] model marts.fct_alertas_viento [success]
+08:29:40.822303 [info ]: Finished rendering [ 20.00s] (21 nodes, 0 skipped, 0 errors)
+08:29:40.828302 [info ]: Finished analyzing [ 20.01s] (21 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:41.128311 [info ]:     Passed [  0.31s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+08:29:41.128543 [info ]: Finished running [  0.31s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:41.201915 [info ]:     Passed [  0.38s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+08:29:41.202159 [info ]: Finished running [  0.38s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+08:29:41.217931 [info ]:     Passed [  0.40s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+08:29:41.218160 [info ]: Finished running [  0.39s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+08:29:41.432058 [info ]:     Passed [  0.61s] test  dbt_test__audit.assert_alertas_viento_coherentes
+08:29:41.432306 [info ]: Finished running [  0.60s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+08:29:41.432430 [info ]: Finished running [ 20.60s] (21 nodes, 0 skipped, 0 errors)
+09:31:23.720423 [info ]: Finished running [  5.45s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:24.005760 [info ]:     Passed [  0.28s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+09:31:24.005936 [info ]: Finished running [  0.27s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+09:31:24.182270 [info ]:     Passed [  0.46s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+09:31:24.182455 [info ]: Finished running [  0.42s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:25.110516 [info ]:     Passed [  1.39s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+09:31:25.110696 [info ]: Finished running [  1.38s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:26.292447 [info ]:     Passed [  2.57s] test  dbt_test__audit.assert_no_datos_futuros
+09:31:26.292628 [info ]: Finished running [  2.56s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:27.094895 [info ]:     Passed [  3.37s] test  dbt_test__audit.assert_valores_medicion_logicos
+09:31:27.095088 [info ]: Finished running [  3.34s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+09:31:31.833489 [info ]: Finished running [  4.74s] model marts.fct_alertas_viento [success]
+09:31:31.838270 [info ]: Finished rendering [ 15.08s] (11 nodes, 0 skipped, 0 errors)
+09:31:31.853547 [info ]: Finished analyzing [ 13.66s] (11 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:32.102179 [info ]:     Passed [  0.27s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+09:31:32.102436 [info ]: Finished running [  0.26s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+09:31:32.103338 [info ]:     Passed [  0.27s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+09:31:32.103509 [info ]: Finished running [  0.27s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:31:32.121549 [info ]:     Passed [  0.29s] test  dbt_test__audit.assert_alertas_viento_coherentes
+09:31:32.121679 [info ]: Finished running [  0.28s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+09:31:32.132958 [info ]:     Passed [  0.30s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+09:31:32.133159 [info ]: Finished running [  0.28s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+09:31:32.133261 [info ]: Finished running [ 13.86s] (11 nodes, 0 skipped, 0 errors)
+09:34:25.438543 [info ]: Finished running [  5.87s] model marts.fct_meteo_horario [success]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:25.891416 [info ]:     Passed [  0.45s] test  dbt_test__audit.not_null_fct_meteo_horario_id_medicion
+09:34:25.891562 [info ]: Finished running [  0.44s] test dbt_test__audit.not_null_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:27.015760 [info ]:     Passed [  1.57s] test  dbt_test__audit.assert_no_datos_futuros
+09:34:27.015960 [info ]: Finished running [  1.56s] test dbt_test__audit.assert_no_datos_futuros [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:28.241999 [info ]:     Passed [  2.80s] test  dbt_test__audit.unique_fct_meteo_horario_id_medicion
+09:34:28.242158 [info ]: Finished running [  2.78s] test dbt_test__audit.unique_fct_meteo_horario_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:29.085356 [info ]:     Passed [  3.64s] test  dbt_test__audit.assert_valores_medicion_logicos
+09:34:29.085505 [info ]: Finished running [  3.61s] test dbt_test__audit.assert_valores_medicion_logicos [pass]
+      sum(coalesce(diff_count, 0)) as failures,
+      sum(coalesce(diff_count, 0)) != 0 as should_error
+09:34:30.297119 [info ]:     Passed [  4.85s] test  dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_
+09:34:30.297279 [info ]: Finished running [  4.82s] test dbt_test__audit.dbt_utils_equal_rowcount_fct_meteo_horario_ref_int_meteo_unpivoted_ [pass]
+09:34:31.802908 [info ]: Finished running [  1.51s] model marts.fct_alertas_viento [success]
+09:34:31.808268 [info ]: Finished rendering [ 12.30s] (11 nodes, 0 skipped, 0 errors)
+09:34:31.838474 [info ]: Finished analyzing [ 12.32s] (11 nodes, 0 skipped, 0 errors)
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:32.185782 [info ]:     Passed [  0.38s] test  dbt_test__audit.unique_fct_alertas_viento_id_medicion
+09:34:32.185946 [info ]: Finished running [  0.38s] test dbt_test__audit.unique_fct_alertas_viento_id_medicion [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:32.190368 [info ]:     Passed [  0.39s] test  dbt_test__audit.assert_alertas_viento_coherentes
+09:34:32.190464 [info ]: Finished running [  0.38s] test dbt_test__audit.assert_alertas_viento_coherentes [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+validation_errors as (
+from validation_errors
+09:34:32.206306 [info ]:     Passed [  0.40s] test  dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0
+09:34:32.206474 [info ]: Finished running [  0.37s] test dbt_test__audit.dbt_expectations_expect_table_row_count_to_be_between_fct_alertas_viento_0 [pass]
+      count(*) as failures,
+      count(*) != 0 as should_error
+09:34:32.251242 [info ]:     Passed [  0.45s] test  dbt_test__audit.not_null_fct_alertas_viento_id_medicion
+09:34:32.251410 [info ]: Finished running [  0.44s] test dbt_test__audit.not_null_fct_alertas_viento_id_medicion [pass]
+09:34:32.251500 [info ]: Finished running [ 12.68s] (11 nodes, 0 skipped, 0 errors)
+10:08:40.150624 [info ]: Finished running [  7.30s] model marts.dim_estaciones [success]
+10:08:42.607816 [info ]: Finished running [  8.03s] model marts.fct_meteo_horario [success]
+10:08:42.610317 [info ]: Finished rendering [  9.77s] (3 nodes, 0 skipped, 0 errors)
+10:08:42.627871 [info ]: Finished analyzing [  9.79s] (3 nodes, 0 skipped, 0 errors)
+10:08:47.545692 [info ]: Finished running [  4.92s] model marts.fct_alertas_viento [success]
+10:08:47.545804 [info ]: Finished running [ 14.69s] (3 nodes, 0 skipped, 0 errors)
+10:22:14.027231 [info ]: Finished running [  5.42s] model marts.fct_meteo_horario [success]
+10:22:14.029317 [info ]: Finished rendering [  7.05s] (3 nodes, 0 skipped, 0 errors)
+10:22:14.049936 [info ]: Finished analyzing [  7.06s] (3 nodes, 0 skipped, 0 errors)
+10:22:14.591998 [info ]: Finished running [  7.59s] model marts.dim_estaciones [success]
+10:22:19.663015 [info ]: Finished running [  5.61s] model marts.fct_alertas_viento [success]
+10:22:19.663083 [info ]: Finished running [ 12.66s] (3 nodes, 0 skipped, 0 errors)
+10:32:03.482552 [info ]: Finished running [  2.27s] model staging.stg_madrid_meteo [success]
+10:32:04.739131 [info ]: Finished running [  1.23s] model intermediate.int_estaciones_limpio [success]
+10:32:05.809456 [info ]: Finished running [  2.30s] model intermediate.int_meteo_unpivoted [success]
+10:32:11.849102 [info ]: Finished running [  7.10s] model marts.dim_estaciones [success]
+10:32:12.760479 [info ]: Finished running [  6.50s] model marts.fct_meteo_horario [success]
+10:32:12.762797 [info ]: Finished rendering [ 11.58s] (6 nodes, 0 skipped, 0 errors)
+10:32:12.784561 [info ]: Finished analyzing [ 11.60s] (6 nodes, 0 skipped, 0 errors)
+10:32:17.276026 [info ]: Finished running [  4.49s] model marts.fct_alertas_viento [success]
+10:32:17.276103 [info ]: Finished running [ 16.06s] (6 nodes, 0 skipped, 0 errors)
+10:53:22.877556 [info ]: Finished running [  7.12s] model marts.dim_estaciones [success]
+10:53:23.466057 [info ]: Finished running [  6.00s] model marts.fct_meteo_horario [success]
+10:53:23.468830 [info ]: Finished rendering [  7.73s] (3 nodes, 0 skipped, 0 errors)
+10:53:23.499479 [info ]: Finished analyzing [  7.76s] (3 nodes, 0 skipped, 0 errors)
+10:53:27.154589 [info ]: Finished running [  3.65s] model marts.fct_alertas_viento [success]
+10:53:27.154686 [info ]: Finished running [ 11.40s] (3 nodes, 0 skipped, 0 errors)
+10:55:00.338294 [info ]: Finished running [  6.62s] model marts.dim_estaciones [success]
+10:55:02.589885 [info ]: Finished running [  7.54s] model marts.fct_meteo_horario [success]
+10:55:02.592591 [info ]: Finished rendering [  8.89s] (3 nodes, 0 skipped, 0 errors)
+10:55:02.613325 [info ]: Finished analyzing [  8.91s] (3 nodes, 0 skipped, 0 errors)
+10:55:06.571966 [info ]: Finished running [  3.96s] model marts.fct_alertas_viento [success]
+10:55:06.572022 [info ]: Finished running [ 12.86s] (3 nodes, 0 skipped, 0 errors)
