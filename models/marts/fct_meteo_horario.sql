@@ -15,7 +15,7 @@ select
     magnitud as id_magnitud,
     fecha as id_fecha,
     hora,
-    valor,
+    CAST(valor AS FLOAT) AS valor,
     loaded_at
 from base
 
